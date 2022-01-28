@@ -1,0 +1,171 @@
+withdraw: 提现明细
+Vip Until: VIP到期时间
+coinUser: 用户金币
+Coin Total: 总金币
+Coin Threshold: 分红金币门槛
+Fund: 分红基金
+fund: 分红基金明细
+Opinion: 审核意见
+Active: 启用
+exchanged: 已兑换
+exchange: 股权兑换
+Exchange: 股权兑换
+bidStart: 竞价起始价
+bidIncrement: 加价
+buyNow: 一口价
+landPrice: 领地初始价
+Pre Price: 原价
+welcome: 新股东通告模板
+coinsPerYuan: 奖励金币数 / 元
+coinThreshold: 分红金币门槛
+LandPost: 领地广告
+Coupon Id: 优惠券ID
+Fee: 手续费
+Method: 支付方式
+Task Limit: 发布任务数量
+Post Fee: 分布任务手续费
+Withdraw Fee: 提现手续费
+Sticky Price: 置顶任务
+Recommend Price: 推荐任务
+Land Trade Ratio: 领地交易收益
+Topup Ratio: 会员充值返利
+Task Least: 任务最低悬赏数
+amount: 金额
+Ror: 推荐人上级
+Referrer: 推荐人
+Coin: 金币
+Refcode: 邀请码
+Frozen: 冻结中
+Equity: 股权
+Earnings: 任务奖励
+Topup: 充值余额
+Avatar: 头像
+Link: 链接
+Note: 备注
+Work Hours: 提交小时数
+Review Hours: 审核小时数
+Guides: 操作步骤
+Reviews: 验收图文
+Desc A: 维权内容
+Pics A: 维权图片
+Desc B: 辨诉内容
+Pics B: 辨诉图片
+Apply: 相关任务
+Is Buy Now: 一口价
+Author: 作者
+Node: 文章
+Status: 状态
+landTrade: 领地交易
+landpost: 领地广告
+Land: 领地
+Seller: 卖家
+Buyer: 买家
+Days: 天数
+Cover: 封面
+task: 任务
+node: 文章
+nodeType: 文章类别
+NodeType: 文章类别
+equityTrade: 股权交易
+EquityTrade: 股权交易
+Rmb: 金额
+user: 用户
+tag: 标签
+category: 类别
+vip: 会员
+land: 领地
+bid: 竞价
+report: 举报
+finance: 财务
+Finance: 财务
+equity: 股权
+dividend: 分红
+level: 等级
+config: 设置
+ID: 编号
+Username: 用户名
+Password: 密码
+Roles: 角色
+results: 结果
+result: 结果
+Name: 名称
+Label: 标签
+Title: 标题
+Date: 日期
+Body: 正文
+Platform: 平台
+Price: 价格
+Sticky: 置顶
+Recommended: 推荐
+Owner: 发布人
+Category: 类别
+Tasks: 任务
+Tag: 标签
+Description: 描述
+Applied: 申请
+Quantity: 份数
+Showdays: 展示天数
+Approvedays: 审核天数
+Applydays: 接单时间
+Prepaid: 预付
+Value: 数值
+Level: 等级
+Task least: 任务最低数量
+Post fee: 任务手续费
+Withdraw fee: 提现手续费
+Sticky fee: 置顶手续费
+Type: 类型
+Amount: 金额
+User: 用户
+Task: 任务
+Ratio: 兑换比率
+Topic: 话题
+City: 城市
+Total: 总金额
+Share: 分红人数
+Bid: 出价
+Position: 位置
+vip.date: 充值日期
+vip.days: 剩余天数
+vip.uid: 用户
+Level.days: 有效天数
+Nick: 昵称
+avatar: 头像
+Phone: 手机
+Balance task: 赏金余额
+Balance topup: 充值余额
+Gxb: GXB
+new.plainpass: 密码
+edit.plainpass: 新密码
+Approved: 已审
+Bid position: 竞价位置
+Applies: 申请
+cate.rate: 最低单价
+Sticky price: 置顶
+Recommend price: 推荐
+Land trade ratio: 领地交易
+Topup ratio: 会员充值
+Task limit: 发布数量
+EquityFee: 股权交易手续费
+equityFee: 股权交易手续费
+L1: 一级人数
+L2: 二级人数
+Is Star: 星级
+Rate: 费率
+conf: 设置
+Conf: 设置
+equityTotal: 股权总量
+referReward: 推广一级奖励
+referReward2: 推广二级奖励
+referGXB: 推广GXB奖励
+mainCellMinPrice: 主城格子起步价
+cellMinPrice: 分城格子起步价
+mainCellMinDays: 主城格子最低天数
+cellMinDays: 分城格子最低天数
+maxPerDay: 股权每日最大兑换数量
+equityGXBRate: 兑例GXB / 股权
+equityPrice: 股权价格
+equityPriceMax: 股权最高价
+equityPriceMin: 股权最低价
+dividendFund: 分红基金
+forceUpdate: 强制更新

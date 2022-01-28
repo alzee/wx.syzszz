@@ -38,14 +38,14 @@ class DashboardController extends AbstractDashboardController
     public function configureDashboard(): Dashboard
     {
         return Dashboard::new()
-            ->setTitle('Wx Syzszz');
+            ->setTitle('十堰市再生资源公众平台');
     }
 
     public function configureMenuItems(): iterable
     {
-        yield MenuItem::linkToDashboard('Dashboard', 'fa fa-home');
-        yield MenuItem::linkToCrud('The Label', 'fas fa-list', User::class);
-        yield MenuItem::linkToCrud('The Label', 'fas fa-list', Node::class);
+        yield MenuItem::linkToDashboard('统计', 'fa fa-home');
+        yield MenuItem::linkToCrud('用户', 'fas fa-list', User::class);
+        yield MenuItem::linkToCrud('文章', 'fas fa-list', Node::class);
         // yield MenuItem::linkToCrud('The Label', 'fas fa-list', EntityClass::class);
     }
 }
