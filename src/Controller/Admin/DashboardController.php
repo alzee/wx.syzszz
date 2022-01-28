@@ -10,6 +10,7 @@ use Symfony\Component\Routing\Annotation\Route;
 use EasyCorp\Bundle\EasyAdminBundle\Router\AdminUrlGenerator;
 use App\Entity\User;
 use App\Entity\Node;
+use App\Entity\Tags;
 
 class DashboardController extends AbstractDashboardController
 {
@@ -46,6 +47,7 @@ class DashboardController extends AbstractDashboardController
         yield MenuItem::linkToDashboard('统计', 'fa fa-home');
         yield MenuItem::linkToCrud('用户', 'fas fa-list', User::class);
         yield MenuItem::linkToCrud('文章', 'fas fa-list', Node::class);
+        yield MenuItem::linkToCrud('标签', 'fas fa-list', Tags::class);
         // yield MenuItem::linkToCrud('The Label', 'fas fa-list', EntityClass::class);
     }
 }
