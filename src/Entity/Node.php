@@ -27,6 +27,10 @@ class Node
     #[ORM\ManyToMany(targetEntity: Tags::class, inversedBy: 'nodes')]
     private $tags;
 
+    #[ORM\ManyToOne(targetEntity: User::class)]
+    #[ORM\JoinColumn(nullable: false)]
+    private $author;
+
     public function __construct()
     {
         $this->tags = new ArrayCollection();
@@ -93,6 +97,18 @@ class Node
     public function removeTag(Tags $tag): self
     {
         $this->tags->removeElement($tag);
+
+        return $this;
+    }
+
+    public function getAuthor(): ?User
+    {
+        return $this->author;
+    }
+
+    public function setAuthor(?User $author): self
+    {
+        $this->author = $author;
 
         return $this;
     }
