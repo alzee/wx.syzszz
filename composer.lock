@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "dba4f07962646b5f616f18b441ceb3b4",
+    "content-hash": "c63bc09534c0abcc29f1f488eeafecaf",
     "packages": [
         {
             "name": "composer/package-versions-deprecated",
@@ -1435,6 +1435,57 @@
                 "source": "https://github.com/doctrine/sql-formatter/tree/1.1.2"
             },
             "time": "2021-11-05T11:11:14+00:00"
+        },
+        {
+            "name": "dodgepudding/wechat-php-sdk",
+            "version": "1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dodgepudding/wechat-php-sdk.git",
+                "reference": "3a9b9601a07797497e8c428cfd20a29d37a66a35"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dodgepudding/wechat-php-sdk/zipball/3a9b9601a07797497e8c428cfd20a29d37a66a35",
+                "reference": "3a9b9601a07797497e8c428cfd20a29d37a66a35",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "dodgepudding\\wechat\\sdk\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL"
+            ],
+            "authors": [
+                {
+                    "name": "dodgepudding",
+                    "email": "dodgepudding@gmail.com"
+                },
+                {
+                    "name": "binsee",
+                    "email": "binsee@163.com"
+                }
+            ],
+            "description": "the wechat api library without framework dependency",
+            "keywords": [
+                "sample",
+                "thinkphp",
+                "wechat",
+                "weixin"
+            ],
+            "support": {
+                "issues": "https://github.com/dodgepudding/wechat-php-sdk/issues",
+                "source": "https://github.com/dodgepudding/wechat-php-sdk",
+                "wiki": "https://github.com/dodgepudding/wechat-php-sdk/wiki"
+            },
+            "time": "2015-03-15T17:07:41+00:00"
         },
         {
             "name": "easycorp/easyadmin-bundle",
